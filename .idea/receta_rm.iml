@@ -84,6 +84,8 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
     <configuration default="false" name="Development: receta_rm" type="RailsRunConfigurationType" factoryName="Rails">
@@ -249,8 +251,6 @@
     <orderEntry type="library" scope="PROVIDED" name="rails_serve_static_assets (v0.0.4, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails_stdout_logging (v0.0.3, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.0, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.0, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec (v2.99.0, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-collection_matchers (v1.1.2, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-core (v2.99.2, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
@@ -261,7 +261,8 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.12, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.1, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.44.0, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.45.0.dev3, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spring (v1.3.2, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.3, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.2.4, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="teaspoon (v0.8.0, RVM: ruby-2.2.0 [receta_rm]) [gem]" level="application" />

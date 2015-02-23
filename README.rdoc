@@ -3,6 +3,41 @@
 bundle install
 
 rake db:setup
+
 rake db:migrate
+rake db:migrate RAILS_ENV=test
+
 rake bower:install
 
+rails g bower_rails:initialize json (是否要執行？)
+
+rails g model xxxxx --no-fixture --no-fixture-replacement
+rails g controller xxxxx --no-view-specs --no-helper --no-assets
+
+== Rspec
+rails g rspec:install
+rake spec
+
+
+== Teaspoon
+rails g teaspoon:install --coffee
+rake teaspoon
+
+
+source 'https://rails-assets.org' do
+
+    gem 'rails-assets-angular'
+    gem 'rails-assets-angular-animate'
+    gem 'rails-assets-angular-bindonce'
+    gem 'rails-assets-angular-cookies'
+    gem 'rails-assets-angular-faye'
+    gem 'rails-assets-angular-i18n'
+    gem 'rails-assets-angular-loading-bar'
+    gem 'rails-assets-angular-mocks'
+    gem 'rails-assets-angular-mousewheel'
+    gem 'rails-assets-angular-resource'
+    gem 'rails-assets-angular-route'
+    gem 'rails-assets-angular-sanitize'
+    gem 'rails-assets-angular-touch'
+
+end
